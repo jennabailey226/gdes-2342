@@ -1,4 +1,83 @@
 /* Embedded Fonts */
+@font-face {
+    font-family: 'Martel Light';
+    src: url("../fonts/Martel-Light.ttf") format("truetype");
+}
 
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Martel Regular';
+    src: url("../fonts/Martel-Regular.ttf") format("truetype");
+}
 
 /* Container Items */
+.cover {
+    /* width = 100% of browser window, vh = whole hight of browser window */
+    width: 100vw; 
+    height: 100vh;
+    background: url("../images/cover.jpg") center fixed no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+ 
+.title {
+    font-family: 'Martel Light';
+    font-size: 1.8em;
+    color: rgb(67, 67, 67);
+    position: absolute;
+    left: 18%;
+    bottom: 20%;
+    letter-spacing: 0.3px;
+}
+
+.text {
+    font-family: 'Martel Regular';
+    font-size: 16px;
+    color:rgb(84, 84, 84);
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    text-indent: 32px;
+}
+
+.text:first-child {
+    margin-top: 40px;
+}
+
+.link {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #6b6b6b;
+    letter-spacing: 0.1px;
+    margin-top: 60px;
+    margin: auto;
+    /* border: solid 2px #939393; */
+    width: 320px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 60px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.link:hover {
+    color: white;
+    background: #939393;
+    transition: 0.2s;
+}
+
+.mark {
+    color: red;
+}

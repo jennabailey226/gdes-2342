@@ -1,0 +1,7 @@
+.waldo {
+	width: 1200px;
+	height: 848px;
+	background: url(../images/bg.jpg) no-repeat;
+	background-size: 100%;
+	position: absolute;
+}

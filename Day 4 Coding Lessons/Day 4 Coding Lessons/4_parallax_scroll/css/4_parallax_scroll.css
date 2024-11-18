@@ -1,0 +1,47 @@
+body {
+	height: 1800px;
+}
+
+p {
+	font-family: Helvetica;
+	position: absolute;
+}
+
+.fixed {
+	font-size: 90px;
+	color: gray;
+	top: 350px;
+	left: 200px;
+}
+
+.parallax_fast {
+	font-size: 20px;
+	color: red;
+	top: 900px;
+	left: 400px;
+	z-index: 2;
+}
+
+.parallax_slow {
+	font-size: 20px;
+	color: blue;
+	top: 400px;
+	left: 600px;
+	z-index: 2;
+}
+
+.container {
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+	position: absolute;
+	left: 800px;
+	top: 500px;
+}
+
+.picture {
+	width: 100%;
+	height: 600px;
+	background: url(../images/polar.jpg) center center;
+	background-size: cover;
+}

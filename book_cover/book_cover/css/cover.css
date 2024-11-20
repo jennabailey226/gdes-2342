@@ -34,6 +34,17 @@ body {
     bottom: 310px;
     border-radius: 100%;
     transform: translate(25%, 285px);
+    animation: left-enter 2s alternate;
+}
+
+@keyframes left-enter {
+    0% {
+        left: -1000px;
+    }
+    100% {
+        left: 28.5%
+    }
+    
 }
 
 .b_semicircle {
@@ -43,6 +54,17 @@ body {
     height: 431px;
     border-radius: 100%;
     transform: translate(25%,-215px);
+    animation: right-enter 2s alternate;
+    
+}
+
+@keyframes right-enter {
+    0% {
+        right: -1000px;
+    }
+    100% {
+        right: 0%
+    }
     
 }
 

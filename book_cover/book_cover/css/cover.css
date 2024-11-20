@@ -1,0 +1,105 @@
+.page {
+    background-image: linear-gradient(245deg, rgb(233, 197, 121), rgb(254, 243, 179), rgb(206, 165, 109));
+    height: 1000px;
+    width: 647px;
+    /* display: grid;
+    grid-template-columns: auto; */
+    overflow: hidden;
+
+}
+
+.b_half {
+    height: 500px;
+    background: black;
+    overflow: hidden;
+    
+}
+
+.t_half {
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+.t_semicircle {
+    position: absolute;
+    background: black;
+    width: 431px;
+    height: 431px;
+    bottom: 310px;
+    border-radius: 100%;
+    transform: translate(25%, 285px);
+}
+
+.b_semicircle {
+    position: relative;
+    background-image: linear-gradient(245deg, rgb(254, 243, 179), rgb(206, 165, 109),  rgb(233, 197, 121));
+    width: 431px;
+    height: 431px;
+    border-radius: 100%;
+    transform: translate(25%,-215px);
+    
+}
+
+.hide_overflow {
+    overflow: hidden;
+}
+
+/* Embedded Fonts */
+@font-face {
+    font-family: 'AlegreyaSans-Regular';
+    src: url("../fonts/AlegreyaSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-Bold';
+    src: url("../fonts/AlegreyaSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-BoldItalic';
+    src: url("../fonts/AlegreyaSans-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-MediumItalic';
+    src: url("../fonts/AlegreyaSans-MediumItalic.ttf") format("truetype");
+}
+
+p {
+    font-family: AlegreyaSans-Regular;
+
+}
+
+.title {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.b_half p {
+    color: rgb(254, 243, 179);
+    text-align: center;
+    /* font-size: 1em; */
+    margin-bottom: 20px;
+    transform: translateY(-60px);
+}
+
+.author {
+    /* position: block; */
+    height: 40px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3em;
+    letter-spacing: 4px;
+    /* margin: auto; */
+    /* width: fit-content; */
+}
+
+
+
+
+.italic {
+    font-style: italic;
+    font-family: AlegreyaSans-MediumItalic;
+    font-size: .75em
+}

@@ -20,7 +20,7 @@ h2 {
 .container {
     width: fit-content;
     margin: auto;
-    display: flex;
+    display: block;
     gap: 20px;
     
 }
@@ -38,3 +38,4 @@ button {
 button:hover {
     background: rgb(213, 213, 220);
 }
+

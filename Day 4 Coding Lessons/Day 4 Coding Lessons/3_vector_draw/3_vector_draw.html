@@ -7,6 +7,10 @@
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/3_vector_draw.css" />
 
+		<!-- All JS Files-->
+		<script src="js/pathformer.js"></script>
+		<script src="js/vivus.js"></script>
+
 		<title>Vector Drawing</title>
 	
 	</head>
@@ -14,12 +18,19 @@
 	<body>
 
 		<div id="box">
-
+			<svg width="244" height="223" viewBox="0 0 244 223" fill="none" xmlns="http://www.w3.org/2000/svg" id="graphic">
+				<path id="Vector 1" d="M98 1C98 1 149.912 6.05005 178 22C210.191 40.2803 242.181 53.9895 243 91C243.819 128.011 114.854 237.258 91 220C67.1458 202.742 57.6283 178.948 63 150C70.8416 107.741 169.156 139.994 160 98C151.947 61.0655 105.822 56.4471 69 65C23.6257 75.5394 3.44032 116.482 0.999991 163C-0.191711 185.717 2.7505 199.692 13 220" stroke="black"/>
+			</svg>
+				
+				
 
 		</div>
 
 	<script>
-
+		new Vivus('graphic', {
+			type: 'sync',
+			duration: 200
+		});
 
 	</script>
 

@@ -5,3 +5,12 @@
 	background-size: 100%;
 	position: absolute;
 }
+
+.square {
+	width: 30px;
+	height: 30px;
+	border: solid 5px red;
+	position: absolute;
+	right: 75px;
+	top: 405px;
+}

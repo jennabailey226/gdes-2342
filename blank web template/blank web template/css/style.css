@@ -1,0 +1,19 @@
+.hero_img {
+    width: 100%;
+}
+
+nav {
+    width: fit-content;
+    margin: auto;
+    height: 100px;
+}
+
+.nav_item {
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: rgb(55, 55, 55);
+}

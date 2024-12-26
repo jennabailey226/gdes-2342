@@ -1,7 +1,34 @@
+@font-face {
+    font-family: ReadexPro-Regular;
+    src: url("../fonts/ReadexPro-Regular.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: ReadexPro-SemiBold;
+    src: url("../fonts/ReadexPro-SemiBold.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: ReadexPro-Light;
+    src: url("../fonts/ReadexPro-Light.ttf") format(truetype);
+}
+
 body {
     background: #3c4048;
     margin-left: 40px;
     margin-right: 40px;
+    font-family: 'ReadexPro-Regular';
+}
+
+h1 {
+    color:white;
+    font-family: 'ReadexPro-SemiBold';
+    font-size: 4em;
+    padding: 20px;
+}
+
+p {
+    color: white;
 }
 .banner {
     display: flex;
@@ -12,12 +39,14 @@ body {
 .hero-area {
     width: 100%;
     display: flex;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 #text-1 {
     width: 40vw;
     height: 100vh;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    text-align: center;
+    vertical-align: middle;
 
 
 }

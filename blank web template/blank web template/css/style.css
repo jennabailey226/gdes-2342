@@ -1,6 +1,32 @@
-.hero_img {
-    width: 100%;
+body {
+    background: #3c4048;
+    margin-left: 40px;
+    margin-right: 40px;
 }
+.banner {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.hero-area {
+    width: 100%;
+    display: flex;
+    border: 1px solid white;
+}
+#text-1 {
+    width: 40vw;
+    height: 100vh;
+    border: 1px solid green;
+
+
+}
+.hero_img {
+    width: 60vw;
+    height: 100vh;
+    display: block;
+}
+
 
 nav {
     width: fit-content;
